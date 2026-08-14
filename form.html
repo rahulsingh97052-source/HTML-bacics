@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 
+    HTML FORM:
+    <form> - defines form
+            
+    method - approach to send data from client to server. Get and Post are two common method used in form.
+
+    Get - unsecure approach - data is visible is url, limit data size can be sent in one submission.
+
+    Post -  secure approaach - data is not visible in rul, dynamic data size can sent during form submission.
+    
+    action -  this attribute defines where the data is send from form after the submission.
+    
+    <input> - gives input field for user in form. eg for text field email, password, date, number, etc.
+
+    label - gives caption fo <input>
+    
+    id - unique identifier for an element.
+    
+    for -  attribure of <label>, its value is same as id of <input>.
+        
+    name - attribure of <input>, it carries data of the input field.
+
+    -->
+
+    <h1>Form in HTML</h1>
+    <form action="" method="post">
+
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="atleast 6 digit" required>
+        <br><br>
+        <label for="">gender</label>
+        <br>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+        <label for="">Faculty</label>
+        <br>
+        <input type="checkbox" name="Faculty" id="python" value="python">
+        <label for="python">python</label>
+        <br>
+        <input type="checkbox" name="Faculty" id="mysql" value="mysql">
+        <label for="mysql">mysql</label>
+        <br>
+        <input type="checkbox" name="Faculty" id="ui/ux" value="ui/ux">
+        <label for="ui/ux">ui/ux</label>
+        <br>
+        <input type="checkbox" name="Faculty" id="graphic design" value="graphic design">
+        <label for="graphic design">graphic design</label>
+        <br><br>
+        <input type="submit" value="submit">
+
+
+    </form>
+</body>
+
+</html>
