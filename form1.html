@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form Day-2</h1>
+    <form method="" action="">
+        <label for="std_name">Student Name:</label>
+        <input type="text" name="name" id="std_name" placeholder="Dorjee Tamang">
+
+        <br><br>
+
+        <label for="coverletter">Cover Letter</label>
+        <br>
+        <textarea name="Letter" id="coverletter" rows="10" cols="35" placeholder="write a cover letter"></textarea>
+
+        <br><br>
+        <!-- dragdown list - select/option -->
+        <label for="Country">Country</label>
+        <select name="Country" id="Country">
+            <option value="" disabled selected>Default</option>
+
+            <optgroup label="Asia">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </optgroup>
+
+            <option value="UK">UK</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+
+        <br><br>
+
+        <!-- File submission -->
+        <label for="cv">CV</label>
+        <input type="file" name="cv" id="CV" multiple accept=".pdf, .png">
+
+        <br><br>
+        <label for="pc">Postal Code</label>
+        <input type="text" name="postalcode" id="pc" placeholder="your postal code" pattern="[0-9]{5}">
+
+        <br><br>
+        <!-- Date -->
+        <input type="date" name="" id="">
+        <input type="datetime-local" name="" id="">
+
+        <!-- color -->
+        <input type="color" name="" id="">
+
+        <br><br>
+
+        <!-- URL submission -->
+        <input type="url" name="" id="">
+
+        <br><br>
+
+        <!-- Number -->
+        <input type="number" name="" id="">
+
+        <br><br>
+
+        <!-- Range -->
+        <input type="range" name="" id="" min="0" max="100" step="25">
+
+        <br><br>
+
+        <!-- <input type="submit" value="submit"> -->
+        <button type="submit">submit</button>
+
+
+        <!--
+        Create a jobappli9caion.html file. In html file, create a job application form including text field for personal Detail Section [name, email, contact, gender (type radio), province(select-option)], Higher education section [education level (select-option - high school/master level/phd level)], work experience section [pervious company name, experience level(1 year/ 2 year/ 3 year/)], other details like cover letter and CV (file).
+        -->
+
+
+
+    </form>
+</body>
+
+</html>
